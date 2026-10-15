@@ -91,7 +91,7 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
       {error && <p className="mt-3 flex items-center gap-1 text-[13px] text-danger" data-error><CircleAlert className="size-4" />{error}</p>}
 
       <div className="mt-5 grid gap-4 lg:grid-cols-2">
-        <div className="h-72 overflow-hidden rounded-gls border border-line-soft lg:h-[440px]">
+        <div className="isolate h-72 overflow-hidden rounded-gls border border-line-soft lg:h-[440px]">
           <MapContainer center={[-33.45, -70.66]} zoom={11} scrollWheelZoom={false} className="size-full">
             <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>' url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
             {list.items.map((a) => (
@@ -108,7 +108,7 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
           </MapContainer>
         </div>
 
-        <div className="flex flex-col rounded-gls bg-canvas p-3 lg:h-[440px]">
+        <div className="flex max-h-[440px] flex-col rounded-gls bg-canvas p-3 lg:h-[440px]">
           {list.status === 'idle' && (
             <div className="grid flex-1 place-items-center px-6 py-10 text-center text-muted">
               <div>
@@ -130,7 +130,7 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
           {list.status === 'ready' && list.items.length > 0 && (
             <>
               <p className="px-1 pb-3 font-bold">{list.items.length} Puntos Blue Express cercanos</p>
-              <ul ref={listRef} className="-mr-1 flex-1 space-y-2 overflow-y-auto pr-1" role="radiogroup" aria-label={`Punto de ${kind}`}>
+              <ul ref={listRef} className="-mr-1 min-h-0 flex-1 space-y-2 overflow-y-auto overscroll-contain pr-1" role="radiogroup" aria-label={`Punto de ${kind}`}>
                 {list.items.map((a, i) => {
                   const active = a.agency_id === agency?.agency_id
                   const dist = origin && km(origin, { lat: a.location.latitude, lng: a.location.longitude })

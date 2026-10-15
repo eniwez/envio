@@ -97,13 +97,12 @@ export default function Wizard() {
             <div className="mt-4"><Alert tone="error">Completa los campos obligatorios.</Alert></div>
           )}
 
-          {/* En móvil es una barra fija con el total, como un carrito */}
+          {/* En móvil el resumen va al final del formulario, sobre la barra */}
+          <div className="mt-6 lg:hidden"><Summary state={state} sizes={catalog.sizes} communes={catalog.communes} quote={quote} /></div>
+
+          {/* En móvil es una barra fija con los botones */}
           <div className="sticky bottom-0 z-[500] -mx-4 mt-6 flex items-center gap-3 border-t border-line-soft bg-white px-4 py-3 sm:static sm:mx-0 sm:justify-between sm:border-0 sm:bg-transparent sm:p-0">
             <Button variant="link" onClick={() => (step > 0 ? go(step - 1) : setStarted(false))} disabled={advancing || sending} aria-label="Volver atrás" className="!px-1 sm:!px-0"><ChevronLeft className="size-5" strokeWidth={3} /><span className="hidden sm:inline">Volver atrás</span></Button>
-            <div className="sm:hidden">
-              <p className="text-xs text-muted">Total</p>
-              <p className="text-lg font-black leading-tight">{clp(quote?.total)}</p>
-            </div>
             <Button onClick={next} progress={advancing || sending} duration={sending ? 1700 : 700} className="flex-1 sm:min-w-64 sm:flex-none">
               {step === STEPS.length - 1 ? (state.payment.method === 'WEBPAY' ? 'Ir a pagar' : 'Finalizar pedido') : 'Siguiente'}
               <ChevronRight className="size-5" strokeWidth={3} />
@@ -111,7 +110,7 @@ export default function Wizard() {
           </div>
         </div>
 
-        <div className="lg:sticky lg:top-6">
+        <div className="hidden lg:sticky lg:top-6 lg:block">
           <Summary state={state} sizes={catalog.sizes} communes={catalog.communes} quote={quote} />
         </div>
       </div>
