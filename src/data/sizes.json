@@ -1,0 +1,57 @@
+[
+ {
+  "code": "XS",
+  "title": "Talla XS",
+  "description": "Sobres acolchados o cajas chicas hasta 0,5 Kg",
+  "maxKg": 0.5,
+  "dims": [
+   25,
+   20,
+   5
+  ]
+ },
+ {
+  "code": "S",
+  "title": "Talla S",
+  "description": "Hasta 3 Kg o 20 x 20 x 30 cms",
+  "maxKg": 3,
+  "dims": [
+   20,
+   20,
+   30
+  ]
+ },
+ {
+  "code": "M",
+  "title": "Talla M",
+  "description": "Hasta 6 Kg o 30 x 30 x 25 cms",
+  "maxKg": 6,
+  "dims": [
+   30,
+   30,
+   25
+  ]
+ },
+ {
+  "code": "L",
+  "title": "Talla L",
+  "description": "Hasta 20 Kg o 70 x 70 x 70 cms",
+  "maxKg": 20,
+  "dims": [
+   70,
+   70,
+   70
+  ]
+ },
+ {
+  "code": "XL",
+  "title": "Talla XL",
+  "description": "Hasta 25 Kg o 100 x 100 x 100 cms",
+  "maxKg": 25,
+  "dims": [
+   100,
+   100,
+   100
+  ]
+ }
+]

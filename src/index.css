@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+/* Tokens tomados de gls-pakete.de */
+@theme {
+  --font-sans: "Figtree", system-ui, sans-serif;
+  --color-brand: #061ab1;
+  --color-brand-dark: #04128a;
+  --color-brand-50: #eef0fc;
+  --color-brand-100: #dfe3fa;
+  --color-navy: #020a47;
+  --color-accent: #ef8552; /* rgb(239 133 82) */
+  --color-accent-dark: #e06c36;
+  --color-mint: #c3e3ac;
+  --color-sky: #c8e6f2;
+  --color-cyan: #00a3e0;
+  --color-ink: #191919;
+  --color-muted: #667085;
+  --color-line: #d0d5dd;
+  --color-line-soft: #eaecf0;
+  --color-canvas: #f2f4f7;
+  --color-field: #fcfcfd;
+  --color-danger: #d92d20;
+  --color-danger-50: #fef3f2;
+  --color-warn: #b54708;
+  --color-warn-50: #fffaeb;
+  --color-ok: #067647;
+  --color-ok-50: #ecfdf3;
+  --radius-gls: 10px;
+}
+
+html { -webkit-font-smoothing: antialiased; }
+body { @apply bg-canvas text-ink font-sans; }
+
+.leaflet-container { font-family: inherit; }
+.pin { background: none; border: none; }
+
+/* Relleno progresivo de los botones de continuar (ver Button en ui.jsx) */
+@keyframes btn-fill { from { width: 0 } to { width: 100% } }
+.btn-progress { width: 0; animation: btn-fill var(--btn-ms, 800ms) cubic-bezier(0.45, 0.05, 0.55, 0.95) forwards; }

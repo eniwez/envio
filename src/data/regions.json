@@ -1,0 +1,114 @@
+[
+ {
+  "name": "Región Metropolitana de Santiago",
+  "regionNumber": "XIII",
+  "regionISO": "CL-RM",
+  "regionCode": 13,
+  "country": 152
+ },
+ {
+  "name": "Región de Antofagasta",
+  "regionNumber": "II",
+  "regionISO": "CL-AN",
+  "regionCode": 2,
+  "country": 152
+ },
+ {
+  "name": "Región de Arica y Parinacota",
+  "regionNumber": "XV",
+  "regionISO": "CL-AP",
+  "regionCode": 15,
+  "country": 152
+ },
+ {
+  "name": "Región de Atacama",
+  "regionNumber": "III",
+  "regionISO": "CL-AT",
+  "regionCode": 3,
+  "country": 152
+ },
+ {
+  "name": "Región de Aysén del Gral. Carlos Ibañez del Campo",
+  "regionNumber": "XI",
+  "regionISO": "CL-AI",
+  "regionCode": 11,
+  "country": 152
+ },
+ {
+  "name": "Región de Coquimbo",
+  "regionNumber": "IV",
+  "regionISO": "CL-CO",
+  "regionCode": 4,
+  "country": 152
+ },
+ {
+  "name": "Región de Magallanes y de la Antártica Chilena",
+  "regionNumber": "XII",
+  "regionISO": "CL-MA",
+  "regionCode": 12,
+  "country": 152
+ },
+ {
+  "name": "Región de Tarapacá",
+  "regionNumber": "I",
+  "regionISO": "CL-TA",
+  "regionCode": 1,
+  "country": 152
+ },
+ {
+  "name": "Región de Valparaíso",
+  "regionNumber": "V",
+  "regionISO": "CL-VS",
+  "regionCode": 5,
+  "country": 152
+ },
+ {
+  "name": "Región de la Araucanía",
+  "regionNumber": "IX",
+  "regionISO": "CL-AR",
+  "regionCode": 9,
+  "country": 152
+ },
+ {
+  "name": "Región de los Lagos",
+  "regionNumber": "X",
+  "regionISO": "CL-LL",
+  "regionCode": 10,
+  "country": 152
+ },
+ {
+  "name": "Región de los Ríos",
+  "regionNumber": "XIV",
+  "regionISO": "CL-LR",
+  "regionCode": 14,
+  "country": 152
+ },
+ {
+  "name": "RegiÃ³n de Ã‘uble",
+  "regionNumber": "XVI",
+  "regionISO": "CL-NB",
+  "regionCode": 16,
+  "country": 152
+ },
+ {
+  "name": "Región del Biobío",
+  "regionNumber": "VIII",
+  "regionISO": "CL-BI",
+  "regionCode": 8,
+  "country": 152
+ },
+ {
+  "name": "Región del Libertador Gral. Bernardo O'Higgins",
+  "regionNumber": "VI",
+  "regionISO": "CL-LI",
+  "regionCode": 6,
+  "country": 152
+ },
+ {
+  "name": "Región del Maule",
+  "regionNumber": "VII",
+  "regionISO": "CL-ML",
+  "regionCode": 7,
+  "country": 152
+ }
+]

@@ -1,0 +1,1082 @@
+[
+ {
+  "agency_id": "5702",
+  "agency_name": "Punto Blue Express La Popular",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:00-19:00",
+   "tuesday": "10:00-19:00",
+   "wednesday": "10:00-19:00",
+   "thursday": "10:00-19:00",
+   "friday": "10:00-19:00",
+   "saturday": "10:00-19:00",
+   "sunday": "10:00-19:00"
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.44113,
+   "longitude": -70.630394,
+   "street_name": "RANCAGUA 167",
+   "street_number": "167",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "1103",
+  "agency_name": "Punto Blue Express FactoryTech",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-18:00",
+   "tuesday": "09:00-18:00",
+   "wednesday": "09:00-18:00",
+   "thursday": "09:00-18:00",
+   "friday": "09:00-17:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.434303,
+   "longitude": -70.62428,
+   "street_name": "Almirante Zegers 672",
+   "street_number": "672",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "8360",
+  "agency_name": "Punto Blue Express CIS Providencia",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-18:00",
+   "tuesday": "09:00-18:00",
+   "wednesday": "09:00-18:00",
+   "thursday": "09:00-18:00",
+   "friday": "09:00-18:00",
+   "saturday": "09:00-14:00",
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.42363,
+   "longitude": -70.61111,
+   "street_name": "Av. Nueva Providenc",
+   "street_number": "2070",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "5506",
+  "agency_name": "Punto Blue Express Celcomp",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:30-19:00",
+   "tuesday": "10:30-19:00",
+   "wednesday": "10:30-19:00",
+   "thursday": "10:30-19:00",
+   "friday": "10:30-19:00",
+   "saturday": "10:30-15:00",
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.422516,
+   "longitude": -70.61022,
+   "street_name": "Av. Providencia 2169",
+   "street_number": "2169",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "6405",
+  "agency_name": "Punto Blue Express Emporio de Mascotas",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "12:00-20:30",
+   "tuesday": "12:00-20:30",
+   "wednesday": "12:00-20:30",
+   "thursday": "12:00-20:30",
+   "friday": "12:00-20:30",
+   "saturday": "11:30-15:00",
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.431095,
+   "longitude": -70.61576,
+   "street_name": "Galvarino Gallardo 1",
+   "street_number": "1550",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "2403",
+  "agency_name": "Punto Blue Express Café CakeKelly's",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "08:00-19:30",
+   "tuesday": "08:00-19:30",
+   "wednesday": "08:00-19:30",
+   "thursday": "08:00-19:30",
+   "friday": "08:00-19:30",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.438694,
+   "longitude": -70.60438,
+   "street_name": "RODO 1912",
+   "street_number": "1912",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "147",
+  "agency_name": "Punto Blue Express Riel",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:00-19:00",
+   "tuesday": "10:00-19:00",
+   "wednesday": "10:00-19:00",
+   "thursday": "10:00-19:00",
+   "friday": "10:00-19:00",
+   "saturday": "11:00-15:00",
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.42251,
+   "longitude": -70.61022,
+   "street_name": "Av. Providencia",
+   "street_number": "2169",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "5953",
+  "agency_name": "Punto Blue Express Boutique Aires de Providencia",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "11:00-20:00",
+   "tuesday": "11:00-20:00",
+   "wednesday": "11:00-20:00",
+   "thursday": "11:00-20:00",
+   "friday": "11:00-20:00",
+   "saturday": "11:30-14:30",
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.418774,
+   "longitude": -70.60344,
+   "street_name": "Av Providencia",
+   "street_number": "2566",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "4500",
+  "agency_name": "Punto Blue Express Comercial Megasa",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:30-18:00",
+   "tuesday": "09:30-18:00",
+   "wednesday": "09:30-18:00",
+   "thursday": "09:30-18:00",
+   "friday": "09:30-18:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [
+   "Impresión de etiqueta",
+   "Pago en Punto Blue Express"
+  ],
+  "location": {
+   "latitude": -33.443916,
+   "longitude": -70.62593,
+   "street_name": "AV. ITALIA 999",
+   "street_number": "999",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7086",
+  "agency_name": "Punto Blue Express Copec Av. Santa María 0740",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.43099,
+   "longitude": -70.626396,
+   "street_name": "AV. SANTA MARIA",
+   "street_number": "740",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7064",
+  "agency_name": "Punto Blue Express Copec Los Leones",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.440605,
+   "longitude": -70.60017,
+   "street_name": "Los Leones",
+   "street_number": "2347",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7063",
+  "agency_name": "Punto Blue Express Copec Francisco Bilbao / Hernan",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.43565,
+   "longitude": -70.59609,
+   "street_name": "Av. Francisco Bilba",
+   "street_number": "2682",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7090",
+  "agency_name": "Punto Blue Express Copec Lota",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.42149,
+   "longitude": -70.597496,
+   "street_name": "LOTA",
+   "street_number": "2864",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7067",
+  "agency_name": "Punto Blue Express Copec Av. Pedro de Valdivia / E",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.442055,
+   "longitude": -70.60651,
+   "street_name": "PEDRO DE VALDIVIA",
+   "street_number": "2142",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "4927",
+  "agency_name": "Punto Blue Express Copec Tobalaba/Pocuro",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.43001,
+   "longitude": -70.5871,
+   "street_name": "Av. Tobalaba",
+   "street_number": "1895",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7066",
+  "agency_name": "Punto Blue Express Copec Av. Salvador / Sta. Isabe",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.44585,
+   "longitude": -70.6226,
+   "street_name": "SALVADOR 1368",
+   "street_number": "1368",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7027",
+  "agency_name": "Punto Blue Express Copec Av. Eliodoro Yáñez",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.431458,
+   "longitude": -70.61027,
+   "street_name": "Av. Eliodoro Yanez 1",
+   "street_number": "1960",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "4472",
+  "agency_name": "Punto Blue Express Cat Republic",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "12:30-20:30",
+   "tuesday": "12:30-20:30",
+   "wednesday": "12:30-20:30",
+   "thursday": "12:30-20:30",
+   "friday": "12:30-20:30",
+   "saturday": "11:00-20:00",
+   "sunday": "11:00-20:00"
+  },
+  "services": [
+   "Impresión de etiqueta"
+  ],
+  "location": {
+   "latitude": -33.44613,
+   "longitude": -70.62632,
+   "street_name": "CONDELL",
+   "street_number": "1225",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "6634",
+  "agency_name": "Punto Blue Express Detallismos.cl",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-18:00",
+   "tuesday": "09:00-18:00",
+   "wednesday": "09:00-18:00",
+   "thursday": "09:00-18:00",
+   "friday": "09:00-18:00",
+   "saturday": "10:00-18:00",
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.439545,
+   "longitude": -70.6084,
+   "street_name": "Pedro de Valdivia",
+   "street_number": "1783",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7088",
+  "agency_name": "Punto Blue Express Copec Av. Providencia",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.430134,
+   "longitude": -70.62291,
+   "street_name": "AV. PROVIDENCIA",
+   "street_number": "1072",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "5414",
+  "agency_name": "Punto Blue Express Oz Coffee",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:00-15:00",
+   "tuesday": "10:00-15:00",
+   "wednesday": "10:00-15:00",
+   "thursday": "10:00-15:00",
+   "friday": "10:00-15:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.44182,
+   "longitude": -70.599884,
+   "street_name": "AVENIDA LOS LEONES",
+   "street_number": "2475",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7065",
+  "agency_name": "Punto Blue Express Copec Manuel Montt 1118",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.437874,
+   "longitude": -70.615486,
+   "street_name": "Manuel Montt",
+   "street_number": "1118",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "3169",
+  "agency_name": "Punto Blue Express International Essences Spa",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "11:00-17:00",
+   "tuesday": "11:00-17:00",
+   "wednesday": "11:00-17:00",
+   "thursday": "11:00-17:00",
+   "friday": "11:00-17:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.41353,
+   "longitude": -70.608826,
+   "street_name": "los conquistadores",
+   "street_number": "2755",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7041",
+  "agency_name": "Punto Blue Express PKT1 Providencia",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-18:00",
+   "tuesday": "09:00-18:00",
+   "wednesday": "09:00-18:00",
+   "thursday": "09:00-18:00",
+   "friday": "09:00-18:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.445396,
+   "longitude": -70.622215,
+   "street_name": "SANTA ISABEL 658",
+   "street_number": "658",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "5249",
+  "agency_name": "Punto Blue Express Area 52",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": null,
+   "tuesday": "11:00-21:00",
+   "wednesday": "11:00-21:00",
+   "thursday": "11:00-21:00",
+   "friday": "11:00-21:00",
+   "saturday": "11:00-20:00",
+   "sunday": "11:00-20:00"
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.44472,
+   "longitude": -70.61885,
+   "street_name": "AV SANTA ISABEL 962",
+   "street_number": "962",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "940",
+  "agency_name": "Punto Blue Express Portatil Center",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:00-18:00",
+   "tuesday": "10:00-18:00",
+   "wednesday": "10:00-18:00",
+   "thursday": "10:00-18:00",
+   "friday": "10:00-18:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.428303,
+   "longitude": -70.62033,
+   "street_name": "Manuel Montt 37",
+   "street_number": "37",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "3660",
+  "agency_name": "Punto Blue Express Mercadito Casero",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:00-20:00",
+   "tuesday": "10:00-20:00",
+   "wednesday": "10:00-20:00",
+   "thursday": "10:00-20:00",
+   "friday": "10:00-20:00",
+   "saturday": "10:00-20:00",
+   "sunday": "10:00-14:00"
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.42749,
+   "longitude": -70.62617,
+   "street_name": "INES MATTE URREJOLA",
+   "street_number": "918",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "2890",
+  "agency_name": "Locker Blue Express Kubi Metro Tobalaba",
+  "commune_code": "13123",
+  "point_type": "Punto Lockers Metro",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "06:00-23:00",
+   "tuesday": "06:00-23:00",
+   "wednesday": "06:00-23:00",
+   "thursday": "06:00-23:00",
+   "friday": "06:00-23:00",
+   "saturday": "06:00-23:00",
+   "sunday": "08:00-23:00"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.418285,
+   "longitude": -70.601746,
+   "street_name": "Av. Providencia",
+   "street_number": "2700",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "2891",
+  "agency_name": "Locker Blue Express Kubi Metro Los Leones",
+  "commune_code": "13123",
+  "point_type": "Punto Lockers Metro",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "06:00-23:00",
+   "tuesday": "06:00-23:00",
+   "wednesday": "06:00-23:00",
+   "thursday": "06:00-23:00",
+   "friday": "06:00-23:00",
+   "saturday": "06:00-23:00",
+   "sunday": "08:00-23:00"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.421795,
+   "longitude": -70.608635,
+   "street_name": "Av. Nueva Providencia",
+   "street_number": "2244",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "2895",
+  "agency_name": "Locker Blue Express Kubi Metro Baquedano",
+  "commune_code": "13123",
+  "point_type": "Punto Lockers Metro",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "06:00-23:00",
+   "tuesday": "06:00-23:00",
+   "wednesday": "06:00-23:00",
+   "thursday": "06:00-23:00",
+   "friday": "06:00-23:00",
+   "saturday": "06:00-23:00",
+   "sunday": "08:00-23:00"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.437366,
+   "longitude": -70.63395,
+   "street_name": "Av. Providencia",
+   "street_number": "13",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "6691",
+  "agency_name": "Punto Blue Express Natynails",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "11:00-18:00",
+   "tuesday": "11:00-18:00",
+   "wednesday": "11:00-18:00",
+   "thursday": "11:00-18:00",
+   "friday": "11:00-18:00",
+   "saturday": "12:00-14:00",
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.42654,
+   "longitude": -70.61614,
+   "street_name": "Avenida Providencia",
+   "street_number": "1650",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "573",
+  "agency_name": "Punto Blue Express Minimarket Alianza",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-18:00",
+   "tuesday": "09:00-18:00",
+   "wednesday": "09:00-18:00",
+   "thursday": "09:00-18:00",
+   "friday": "09:00-18:00",
+   "saturday": "09:00-17:00",
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.431786,
+   "longitude": -70.62392,
+   "street_name": "Av. José Manuel Infante",
+   "street_number": "20",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "5951",
+  "agency_name": "Punto Blue Express  Fullcopia",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:30-18:30",
+   "tuesday": "09:30-18:30",
+   "wednesday": "09:30-18:30",
+   "thursday": "09:30-18:30",
+   "friday": "09:30-18:30",
+   "saturday": "11:00-14:00",
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.43658,
+   "longitude": -70.61608,
+   "street_name": "MANUEL MONTT",
+   "street_number": "940",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "1901",
+  "agency_name": "Punto Blue Express Mail Boxes Losleo",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-16:00",
+   "tuesday": "09:00-16:00",
+   "wednesday": "09:00-16:00",
+   "thursday": "09:00-16:00",
+   "friday": "09:00-16:00",
+   "saturday": "11:00-16:00",
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.419727,
+   "longitude": -70.60807,
+   "street_name": "CALLE GENERAL ADOLF",
+   "street_number": "2334",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "6019",
+  "agency_name": "Punto Blue Express Copec Bilbao 960",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express Copec",
+  "is_24_hours": true,
+  "open_hours": {
+   "monday": "00:00-23:59",
+   "tuesday": "00:00-23:59",
+   "wednesday": "00:00-23:59",
+   "thursday": "00:00-23:59",
+   "friday": "00:00-23:59",
+   "saturday": "00:00-23:59",
+   "sunday": "00:00-23:59"
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.439934,
+   "longitude": -70.62034,
+   "street_name": "Av. Francisco Bilbao",
+   "street_number": "960",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "208",
+  "agency_name": "Punto Blue Express New Time Market",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "08:00-21:00",
+   "tuesday": "08:00-21:00",
+   "wednesday": "08:00-21:00",
+   "thursday": "08:00-21:00",
+   "friday": "08:00-21:00",
+   "saturday": "08:00-21:00",
+   "sunday": "08:00-21:00"
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.448277,
+   "longitude": -70.62686,
+   "street_name": "Emilio Vaissee",
+   "street_number": "578",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "8501",
+  "agency_name": "Locker Blue Express General Holley 2335",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Lockers Standalone",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "07:30-21:00",
+   "tuesday": "07:30-21:00",
+   "wednesday": "07:30-21:00",
+   "thursday": "07:30-21:00",
+   "friday": "07:30-21:00",
+   "saturday": "07:30-15:30",
+   "sunday": null
+  },
+  "services": [
+   "Locker Blue Express"
+  ],
+  "location": {
+   "latitude": -33.41992,
+   "longitude": -70.6077,
+   "street_name": "General Holley",
+   "street_number": "2335",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "7451",
+  "agency_name": "Punto Blue Express Streamlined",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-17:30",
+   "tuesday": "09:00-17:30",
+   "wednesday": "09:00-17:30",
+   "thursday": "09:00-17:30",
+   "friday": "09:00-17:30",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.4252,
+   "longitude": -70.59427,
+   "street_name": "Las Orquideas",
+   "street_number": "979",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "5303",
+  "agency_name": "Punto Blue Express Mediterraneo",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:00-18:30",
+   "tuesday": "09:00-18:30",
+   "wednesday": "09:00-18:30",
+   "thursday": "09:00-18:30",
+   "friday": "09:00-18:30",
+   "saturday": "10:00-14:00",
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.44918,
+   "longitude": -70.631485,
+   "street_name": "VICUÃ‘A MACKENA",
+   "street_number": "612",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "4841",
+  "agency_name": "Punto Blue Express Rohe Store",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "09:30-17:30",
+   "tuesday": "09:30-17:30",
+   "wednesday": "09:30-17:30",
+   "thursday": "09:30-17:30",
+   "friday": "09:30-17:30",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.441925,
+   "longitude": -70.62784,
+   "street_name": "AV FRANCISCO BILBAO",
+   "street_number": "350",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ },
+ {
+  "agency_id": "860",
+  "agency_name": "Punto Blue Express Musicovinyl",
+  "commune_code": "13123",
+  "point_type": "Punto Blue Express",
+  "is_24_hours": false,
+  "open_hours": {
+   "monday": "10:00-19:00",
+   "tuesday": "10:00-19:00",
+   "wednesday": "10:00-19:00",
+   "thursday": "10:00-19:00",
+   "friday": "10:00-19:00",
+   "saturday": null,
+   "sunday": null
+  },
+  "services": [],
+  "location": {
+   "latitude": -33.429184,
+   "longitude": -70.61985,
+   "street_name": "Manuel Montt",
+   "street_number": "70",
+   "city_name": "Providencia",
+   "state_name": "Metropolitana de Santiago"
+  }
+ }
+]
