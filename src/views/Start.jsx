@@ -29,15 +29,9 @@ function BoxIllustration({ dims = [30, 30, 25] }) {
   }
   return (
     <svg viewBox="0 0 320 260" className="h-full w-full overflow-visible">
-      <defs>
-        <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse" patternTransform="rotate(30)">
-          <path d="M0 0H22V22" fill="none" stroke="#8f9be6" strokeWidth="0.8" />
-        </pattern>
-      </defs>
-      <rect x="-400" y="-400" width="1120" height="1060" fill="url(#grid)" />
-      <polygon points={left} fill="#b6bff0" stroke="#061AB1" strokeWidth="3.5" strokeLinejoin="round" />
-      <polygon points={right} fill="#d5daf8" stroke="#061AB1" strokeWidth="3.5" strokeLinejoin="round" />
-      <polygon points={top} fill="#eef0fc" stroke="#061AB1" strokeWidth="3.5" strokeLinejoin="round" />
+      <polygon points={left} fill="#b98550" stroke="#6b4423" strokeWidth="3.5" strokeLinejoin="round" />
+      <polygon points={right} fill="#d4a574" stroke="#6b4423" strokeWidth="3.5" strokeLinejoin="round" />
+      <polygon points={top} fill="#e8c9a0" stroke="#6b4423" strokeWidth="3.5" strokeLinejoin="round" />
       {tag(p(L / 2, W, 0), l)}
       {tag(p(L, W / 2, 0), w)}
       {tag(p(L, 0, H / 2), h)}
@@ -145,7 +139,7 @@ export default function Start({ catalog, onStart }) {
             </details>
           </div>
 
-          <div className="hidden overflow-hidden rounded-gls border-2 border-brand bg-brand-50 lg:block">
+          <div className="hidden overflow-hidden rounded-gls border-2 border-brand bg-white lg:block">
             <BoxIllustration dims={typed.every((n) => n > 0) ? typed : selected?.dims} />
           </div>
         </div>
