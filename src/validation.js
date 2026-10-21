@@ -28,7 +28,7 @@ export const stepErrors = [
       }),
       rut: !isRut(o.rut) && (o.docType === 'factura' ? 'Ingresa un RUT de empresa válido' : 'Por favor ingresa un RUT válido'),
       ...(o.addressMode === 'manual' ? addr : { search: Object.keys(addr).length > 0 && 'Ingresa la dirección exacta y selecciona una opción' }),
-      agency: !o.agency && 'Debes seleccionar un Punto de origen',
+      agency: !o.agency && 'Debes seleccionar una sucursal de origen',
     })
   },
   ({ destination: d }) => {
@@ -36,7 +36,7 @@ export const stepErrors = [
     const home = d.addressMode === 'manual' ? addr : { search: Object.keys(addr).length > 0 && 'Ingresa la dirección exacta y selecciona una opción' }
     return clean({
       ...person(d),
-      ...(d.mode === 'home' ? home : { agency: !d.agency && 'Debes seleccionar un Punto de destino' }),
+      ...(d.mode === 'home' ? home : { agency: !d.agency && 'Debes seleccionar una sucursal de destino' }),
     })
   },
   ({ pkg: p, payment }) => {

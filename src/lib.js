@@ -1,4 +1,4 @@
-// Reglas de validación copiadas del bundle de envio-publico.blue.cl
+// Reglas de validación copiadas del bundle
 export const isEmail = (v) => /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(v)
 
 export const isPhone = (v) => {

@@ -1,7 +1,7 @@
 import { createContext, useContext, useEffect, useState } from 'react'
 import { api } from './api'
 
-const KEY = 'envio-invitado-v2'
+const KEY = 'envio-invitado-v3'
 const address = { region: '', commune: '', street: '', number: '', depto: '', reference: '', text: '' }
 
 export const initialState = () => ({
@@ -32,7 +32,7 @@ export function StoreProvider({ children }) {
 
 export const useStore = () => useContext(Ctx)
 
-// Comunas de origen (Punto) y destino (domicilio o Punto) para cotizar
+// Comunas de origen (sucursal) y destino (domicilio o sucursal) para cotizar
 export const routeOf = (state, communes) => {
   const byCode = (code) => communes.find((c) => c.code === code)
   const o = byCode(state.origin.agency?.commune_code)

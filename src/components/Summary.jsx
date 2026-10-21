@@ -12,7 +12,7 @@ const Row = ({ icon: RowIcon, label, children }) => (
   </div>
 )
 
-// Equivalente al "Warenkorb" de GLS / "Resumen de tu envío" de Blue
+// Equivalente al "Warenkorb" de GLS / "Resumen de tu envío"
 export default function Summary({ state, sizes, communes, quote }) {
   const { origin, destination, pkg } = state
   const communeName = (code) => communes.find((c) => c.code === code)?.name
@@ -26,7 +26,7 @@ export default function Summary({ state, sizes, communes, quote }) {
     <aside className="rounded-2xl bg-white p-5 shadow-[0_1px_3px_rgba(16,24,40,0.06)] sm:p-6" aria-label="Resumen de tu envío">
       <div className="flex items-center justify-between">
         <h2 className="text-xl font-bold">Resumen de tu envío</h2>
-        <span className="rounded-md bg-accent px-2 py-0.5 text-xs font-bold text-white">{destination.mode === 'home' ? 'Punto a domicilio' : 'Punto a punto'}</span>
+        <span className="rounded-md bg-accent px-2 py-0.5 text-xs font-bold text-white">{destination.mode === 'home' ? 'Sucursal a domicilio' : 'Sucursal a sucursal'}</span>
       </div>
 
       {empty ? (

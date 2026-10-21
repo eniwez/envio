@@ -28,7 +28,7 @@ export default function Label({ tx }) {
       </div>
       <article className="mx-auto w-[400px] border-2 border-black bg-white font-sans text-black">
         <header className="flex items-center justify-between border-b-2 border-black px-4 py-3">
-          <img src="/logo.svg" alt="Blue Express" className="-my-2 h-16 w-auto" />
+          <span className="text-3xl font-black">Envío</span>
           <span className="border-2 border-black px-3 py-1 text-3xl font-black">{pkg.size}</span>
         </header>
         <section className="border-b-2 border-black px-4 py-3">

@@ -1,5 +1,5 @@
-import { navigate } from './App'
-import { useStore } from './store'
+import { navigate } from '../App'
+import { useStore } from '../store'
 
 // Vuelve a la pantalla de inicio sin recargar: se conservan los datos ya ingresados
 function Logo() {
@@ -11,9 +11,7 @@ function Logo() {
     navigate('/')
   }
   return (
-    <a href="/" onClick={home} className="inline-block" aria-label="Blue Express, inicio">
-      <img src="/logo.svg" alt="Blue Express" className="h-10 w-auto" />
-    </a>
+    <a href="/" onClick={home} className="inline-block text-3xl font-black text-brand" aria-label="Envío, inicio">Envío</a>
   )
 }
 

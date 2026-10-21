@@ -48,7 +48,7 @@ export default function Webpay({ tx }) {
           <div className="flex items-center justify-between rounded-gls bg-canvas p-4">
             <div>
               <p className="text-sm text-muted">Comercio</p>
-              <p className="font-semibold">Blue Express · Orden {tx}</p>
+              <p className="font-semibold">Envío · Orden {tx}</p>
             </div>
             <div className="text-right">
               <p className="text-sm text-muted">Monto a pagar</p>

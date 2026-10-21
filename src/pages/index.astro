@@ -1,3 +1,7 @@
+---
+import '../index.css'
+import App from '../App.jsx'
+---
 <!doctype html>
 <html lang="es">
   <head>
@@ -10,7 +14,6 @@
     <title>Haz un envío</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <App client:only="react" />
   </body>
 </html>

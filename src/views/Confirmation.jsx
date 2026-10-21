@@ -4,7 +4,7 @@ import { useStore } from '../store'
 import { agencyAddress, clp } from '../lib'
 import { METHODS } from '../steps/Payment'
 import { Alert, Button, Card } from '../ui'
-import { Check, ChevronRight, MapPin, Printer } from 'lucide-react'
+import { Check, MapPin, Printer } from 'lucide-react'
 
 const Step = ({ n, title, children }) => (
   <li className="flex gap-4">
@@ -17,10 +17,10 @@ const Step = ({ n, title, children }) => (
 )
 
 const dropText = {
-  WEBPAY: 'Tu envío ya está pagado. Deja tu encomienda en el Punto Blue Express de origen.',
-  ORIG_AGENCY_PAY: 'Paga el envío con tarjeta y deja tu encomienda en el Punto Blue Express de origen.',
-  DEST_AGENCY_PAY: 'Deja tu encomienda en el Punto Blue Express de origen. El destinatario pagará al retirarla.',
-  RECEIVER: 'Deja tu encomienda en el Punto Blue Express de origen. El destinatario pagará al recibirla.',
+  WEBPAY: 'Tu envío ya está pagado. Deja tu encomienda en la sucursal de origen.',
+  ORIG_AGENCY_PAY: 'Paga el envío con tarjeta y deja tu encomienda en la sucursal de origen.',
+  DEST_AGENCY_PAY: 'Deja tu encomienda en la sucursal de origen. El destinatario pagará al retirarla.',
+  RECEIVER: 'Deja tu encomienda en la sucursal de origen. El destinatario pagará al recibirla.',
 }
 
 export default function Confirmation({ tx }) {
@@ -55,16 +55,14 @@ export default function Confirmation({ tx }) {
                 <Button className="mt-3 !h-10 !px-5" onClick={() => window.open(`/etiqueta?tx=${tx}`, '_blank')}><Printer className="size-5" />Descargar etiqueta</Button>
               </div>
               <div className="rounded-gls bg-canvas p-4">
-                <p className="font-semibold text-ink">B) En un Punto Blue Express:</p>
-                <p>Dirígete a un punto habilitado e imprime con tu número de seguimiento.</p>
-                <a href="https://mapa-pickup.blue.cl/" target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 font-semibold text-brand hover:underline">Encuentra tu Punto con impresora <ChevronRight className="size-4" strokeWidth={3} /></a>
+                <p className="font-semibold text-ink">B) En una sucursal:</p>
+                <p>Dirígete a una sucursal habilitada e imprime con tu número de seguimiento.</p>
               </div>
             </Step>
             <Step n={2} title="Embala tu encomienda">
-              <p>Envuelve tu encomienda y pega la etiqueta en un lugar visible. Considera que nuestros Puntos no venden material de embalaje.</p>
-              <a href="https://www.blue.cl/nosotros/centro-de-ayuda/embalaje" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 font-semibold text-brand hover:underline">Ver guía de embalaje <ChevronRight className="size-4" strokeWidth={3} /></a>
+              <p>Envuelve tu encomienda y pega la etiqueta en un lugar visible. Considera que nuestras sucursales no venden material de embalaje.</p>
             </Step>
-            <Step n={3} title="Deja tu paquete en el Punto Blue Express">
+            <Step n={3} title="Deja tu paquete en la sucursal">
               <p>{dropText[e.paymentMethod]}</p>
               {origin && (
                 <p className="flex gap-2 rounded-gls border border-line-soft p-3 text-sm"><MapPin className="size-5 shrink-0 text-brand" /><span><b className="block">{origin.agency_name}</b>{agencyAddress(origin)}, {origin.location.city_name}</span></p>
@@ -92,7 +90,7 @@ export default function Confirmation({ tx }) {
             <h2 className="text-lg font-bold">¡Mucho más que un seguimiento!</h2>
             <p className="mt-1 text-sm">Conoce cómo garantizamos la entrega de tus paquetes. El destinatario podrá gestionar su entrega desde el tracking:</p>
             <ul className="mt-3 space-y-2 text-sm">
-              {['Configurar un destino de entrega alternativo.', 'Corregir la dirección de entrega o pedir que quede en un Punto Blue Express.', 'Alertas y notificaciones para resolver cualquier problema en el camino.'].map((t) => (
+              {['Configurar un destino de entrega alternativo.', 'Corregir la dirección de entrega o pedir que quede en una sucursal.', 'Alertas y notificaciones para resolver cualquier problema en el camino.'].map((t) => (
                 <li key={t} className="flex gap-2"><Check className="size-4 shrink-0 text-brand" strokeWidth={3} />{t}</li>
               ))}
             </ul>

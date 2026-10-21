@@ -7,8 +7,8 @@ import { Check, CircleAlert, CreditCard, House, MapPin, Store } from 'lucide-rea
 
 export const METHODS = {
   WEBPAY: { title: 'Paga ahora con Webpay', text: 'Tarjeta de crédito, débito o prepago. Serás redirigido a Webpay para completar el pago.', icon: CreditCard, tag: 'Pagas ahora' },
-  ORIG_AGENCY_PAY: { title: 'Yo pago en el Punto de origen', text: 'Cuando lleves tu encomienda al Punto Blue Express seleccionado como origen, paga con tarjeta de crédito o débito.', icon: Store, tag: 'Pagas en el Punto' },
-  DEST_AGENCY_PAY: { title: 'Envío por pagar en Punto de destino', text: 'El destinatario deberá pagar con tarjeta de débito o crédito al retirar en el Punto Blue Express de destino.', icon: MapPin, tag: 'Paga el destinatario' },
+  ORIG_AGENCY_PAY: { title: 'Yo pago en la sucursal de origen', text: 'Cuando lleves tu encomienda a la sucursal seleccionada como origen, paga con tarjeta de crédito o débito.', icon: Store, tag: 'Pagas en la sucursal' },
+  DEST_AGENCY_PAY: { title: 'Envío por pagar en sucursal de destino', text: 'El destinatario deberá pagar con tarjeta de débito o crédito al retirar en la sucursal de destino.', icon: MapPin, tag: 'Paga el destinatario' },
   RECEIVER: { title: 'Envío por pagar en domicilio del destinatario', text: 'El destinatario deberá pagar en el domicilio cuando reciba el envío.', icon: House, tag: 'Paga el destinatario' },
 }
 
@@ -41,8 +41,7 @@ export default function Payment({ errors }) {
           <Field label="Valor del contenido" required inputMode="numeric" value={p.value ? clp(p.value) : ''} error={errors.value} onChange={(e) => set('pkg', { value: e.target.value.replace(/\D/g, '').slice(0, 9) })} hint="Ej: $10.000" />
           <div className="sm:col-span-2">
             <Checkbox checked={p.accepted} error={errors.accepted} onChange={(accepted) => set('pkg', { accepted })}>
-              Confirmo que mi envío no contiene productos prohibidos ni mercancías peligrosas. Revísalos{' '}
-              <a href="https://www.blue.cl/nosotros/centro-de-ayuda/mercancias-peligrosas" target="_blank" rel="noreferrer" className="font-semibold text-brand underline">aquí</a>.
+              Confirmo que mi envío no contiene productos prohibidos ni mercancías peligrosas.
             </Checkbox>
           </div>
         </div>
@@ -94,7 +93,7 @@ export default function Payment({ errors }) {
         {errors.method && <p className="mt-2 flex items-center gap-1 text-[13px] text-danger" data-error><CircleAlert className="size-4" />{errors.method}</p>}
         <div className="mt-6 border-t border-line-soft pt-5">
           <Checkbox checked={payment.terms} error={errors.terms} onChange={(terms) => set('payment', { terms })}>
-            Acepto los <a href="https://www.blue.cl/nosotros/terminos-y-condiciones" target="_blank" rel="noreferrer" className="font-semibold text-brand underline">términos y condiciones</a> de Blue Express
+            Acepto los términos y condiciones
           </Checkbox>
         </div>
       </Card>

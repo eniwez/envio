@@ -27,15 +27,15 @@ export default function Destination({ catalog, errors }) {
           <AddressEntry section={d} update={(fn) => set('destination', fn)} regions={catalog.regions} communes={catalog.communes} errors={errors} optionalLabels searchLabel="Dirección del destinatario (calle, número y comuna)" />
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl bg-brand-50 px-4 py-3">
             <Store className="size-5 shrink-0 text-brand" />
-            <p className="flex-1 text-sm text-ink">¿Prefieres que el destinatario retire en un Punto Blue Express?</p>
+            <p className="flex-1 text-sm text-ink">¿Prefieres que el destinatario retire en una sucursal?</p>
             <button type="button" onClick={() => set('destination', { mode: 'point' })} className="inline-flex items-center gap-0.5 text-sm font-bold text-brand hover:underline">
-              Enviar a un Punto<ChevronRight className="size-4" strokeWidth={3} />
+              Enviar a una sucursal<ChevronRight className="size-4" strokeWidth={3} />
             </button>
           </div>
         </Card>
       ) : (
         <Card>
-          <CardTitle title="Punto Blue Express de destino" subtitle="El destinatario retira su paquete en el Punto que elijas" />
+          <CardTitle title="Sucursal de destino" subtitle="El destinatario retira su paquete en la sucursal que elijas" />
           <AgencyPicker
             kind="destino"
             regions={catalog.regions}
@@ -56,7 +56,7 @@ export default function Destination({ catalog, errors }) {
           />
           <div className="mt-6 flex flex-wrap items-center gap-x-4 gap-y-2 rounded-xl bg-canvas px-4 py-3">
             <House className="size-5 shrink-0 text-muted" />
-            <p className="flex-1 text-sm text-muted">¿El destinatario no puede retirar en un Punto?</p>
+            <p className="flex-1 text-sm text-muted">¿El destinatario no puede retirar en una sucursal?</p>
             <button type="button" onClick={() => set('destination', { mode: 'home' })} className="inline-flex items-center gap-0.5 text-sm font-semibold text-ink hover:text-brand">
               Enviar a domicilio<ChevronRight className="size-4" strokeWidth={3} />
             </button>

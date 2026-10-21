@@ -12,7 +12,7 @@ const load = {
   'agencies-5109': () => import('./data/agencies-5109.json').then((m) => m.default),
 }
 
-// Aleatoriedad con semilla: los Puntos generados y las coordenadas son estables entre recargas
+// Aleatoriedad con semilla: las sucursales generadas y las coordenadas son estables entre recargas
 const seeded = (str) => {
   let h = 1779033703
   for (const ch of str) {
@@ -30,14 +30,12 @@ const seeded = (str) => {
 const between = (rnd, min, max) => min + rnd() * (max - min)
 const pick = (rnd, list) => list[Math.floor(rnd() * list.length)]
 
-// Comunas con datos reales de Puntos; Antártica, Juan Fernández e Isla de Pascua no tienen cobertura
+// Comunas con datos reales de sucursales; Antártica, Juan Fernández e Isla de Pascua no tienen cobertura
 const REAL = new Set(['13123', '8101', '5109'])
 const NO_COVERAGE = new Set(['12202', '5104', '5201'])
 const HOURS = { monday: '09:00-19:00', tuesday: '09:00-19:00', wednesday: '09:00-19:00', thursday: '09:00-19:00', friday: '09:00-19:00', saturday: '10:00-14:00', sunday: null }
-const KINDS = ['Minimarket', 'Librería', 'Bazar', 'Ferretería', 'Copec', 'Almacén', 'Botillería', 'Farmacia']
-const SURNAMES = ['Soto', 'Muñoz', 'Rojas', 'Díaz', 'Pérez', 'Silva', 'Contreras', 'Araya', 'Fuentes', 'Espinoza', 'Valenzuela', 'Tapia', 'Reyes', 'Cortés', 'Figueroa', 'Sepúlveda']
 const STREETS = ['Av. Libertad', 'Los Aromos', 'Las Acacias', 'Pedro de Valdivia', 'Av. Central', 'O\'Higgins', 'Arturo Prat', 'Los Carrera', 'Manuel Montt', 'San Martín', 'Los Alerces', 'Baquedano']
-const SERVICES = [['Impresión de etiqueta', 'Pago en Punto Blue Express'], ['Pago en Punto Blue Express'], ['Impresión de etiqueta']]
+const SERVICES = [['Impresión de etiqueta', 'Pago con tarjeta'], ['Pago con tarjeta'], ['Impresión de etiqueta']]
 
 const syntheticAgencies = (c) => {
   const { latitude, longitude } = c.geolocation
@@ -49,9 +47,9 @@ const syntheticAgencies = (c) => {
     ids.add(id)
     return {
       agency_id: id,
-      agency_name: `Punto Blue Express ${pick(rnd, KINDS)} ${pick(rnd, SURNAMES)}`,
+      agency_name: `Sucursal ${100 + Math.floor(rnd() * 900)}`,
       commune_code: c.code,
-      point_type: pick(rnd, ['Punto Blue Express', 'Punto Blue Express', 'Punto Blue Express Copec']),
+      point_type: 'Sucursal',
       is_24_hours: rnd() < 0.25,
       open_hours: HOURS,
       services: pick(rnd, SERVICES),

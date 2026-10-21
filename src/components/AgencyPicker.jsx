@@ -5,14 +5,14 @@ import { api } from '../api'
 import { agencyAddress } from '../lib'
 import { AddressSearch } from './Address'
 import { Alert, Badge, Skeleton } from '../ui'
-import { Check, CircleAlert, CreditCard, MapPin, Package, Printer, Store } from 'lucide-react'
+import { Check, CircleAlert, CreditCard, MapPin, Printer, Store } from 'lucide-react'
 
-const pin = (active, copec) =>
+const pin = (active) =>
   L.divIcon({
     className: 'pin',
     iconSize: [34, 42],
     iconAnchor: [17, 42],
-    html: `<svg viewBox="0 0 34 42" width="34" height="42"><path d="M17 41C17 41 32 26.5 32 16A15 15 0 0 0 2 16C2 26.5 17 41 17 41Z" fill="${active ? '#EF8552' : '#061AB1'}" stroke="#fff" stroke-width="2"/><text x="17" y="21" text-anchor="middle" font-family="Figtree,Arial" font-weight="900" font-size="13" fill="#fff">${copec ? 'C' : 'b'}</text></svg>`,
+    html: `<svg viewBox="0 0 34 42" width="34" height="42"><path d="M17 41C17 41 32 26.5 32 16A15 15 0 0 0 2 16C2 26.5 17 41 17 41Z" fill="${active ? '#EF8552' : '#061AB1'}" stroke="#fff" stroke-width="2"/><text x="17" y="21" text-anchor="middle" font-family="Figtree,Arial" font-weight="900" font-size="13" fill="#fff">S</text></svg>`,
   })
 
 function FitTo({ agencies, selected }) {
@@ -46,7 +46,7 @@ const openState = (a) => {
   return { open: false, text: now < from ? `abre a las ${from}` : `horario de hoy ${from} - ${to}` }
 }
 
-// Los Puntos se buscan por la dirección escrita (latitud/longitud) y se ordenan del más cercano al más lejano
+// Las sucursales se buscan por la dirección escrita (latitud/longitud) y se ordenan de la más cercana a la más lejana
 export default function AgencyPicker({ kind, regions, communes, commune, point, searchText, agency, onChange, error }) {
   const [list, setList] = useState({ status: 'idle', items: [] })
   const listRef = useRef(null)
@@ -63,10 +63,10 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
       .then((found) => {
         if (!live) return
         const items = [...found].sort((x, y) => km(origin, { lat: x.location.latitude, lng: x.location.longitude }) - km(origin, { lat: y.location.latitude, lng: y.location.longitude }))
-        // Tras recargar, los Puntos generados pueden cambiar: se conserva el ya elegido de esa comuna
+        // Tras recargar, las sucursales generadas pueden cambiar: se conserva la ya elegida de esa comuna
         const kept = agency?.commune_code === communeObj.code && !items.some((a) => a.agency_id === agency.agency_id)
         setList({ status: 'ready', items: kept ? [agency, ...items] : items })
-        // Como Blue: se preselecciona el primer punto si no hay uno válido elegido
+        // Se preselecciona la primera sucursal si no hay una válida elegida
         if (!kept && !items.some((a) => a.agency_id === agency?.agency_id)) onChange({ agency: items[0] ?? null })
       })
       .catch(() => live && setList({ status: 'error', items: [] }))
@@ -82,7 +82,7 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
   return (
     <div>
       <AddressSearch
-        label={`Busca la dirección de ${kind} para ver los Puntos más cercanos`}
+        label={`Busca la dirección de ${kind} para ver las sucursales más cercanas`}
         hint="Ej: San Martín 342 Temuco"
         value={initialText}
         onSelect={(a, loc) => onChange({ region: a.region, commune: a.commune, point: loc ? { lat: loc.lat, lng: loc.lng } : null, text: a.text, agency: null })}
@@ -98,7 +98,7 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
               <Marker
                 key={a.agency_id}
                 position={[a.location.latitude, a.location.longitude]}
-                icon={pin(a.agency_id === agency?.agency_id, a.point_type.includes('Copec'))}
+                icon={pin(a.agency_id === agency?.agency_id)}
                 zIndexOffset={a.agency_id === agency?.agency_id ? 1000 : 0}
                 eventHandlers={{ click: () => choose(a) }}
                 title={a.agency_name}
@@ -113,24 +113,24 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
             <div className="grid flex-1 place-items-center px-6 py-10 text-center text-muted">
               <div>
                 <MapPin className="mx-auto mb-3 size-10 text-brand" strokeWidth={1.5} />
-                Escribe una dirección para ver los Puntos Blue Express más cercanos.
+                Escribe una dirección para ver las sucursales más cercanas.
               </div>
             </div>
           )}
           {list.status === 'loading' && (
             <div className="space-y-3 p-1" aria-busy="true">
-              <p className="text-sm text-muted">Buscando Puntos Blue Express cercanos...</p>
+              <p className="text-sm text-muted">Buscando sucursales cercanas...</p>
               {[0, 1, 2].map((i) => <Skeleton key={i} className="h-24 rounded-gls bg-white" />)}
             </div>
           )}
-          {list.status === 'error' && <Alert tone="error">No pudimos cargar los puntos. Intenta nuevamente.</Alert>}
+          {list.status === 'error' && <Alert tone="error">No pudimos cargar las sucursales. Intenta nuevamente.</Alert>}
           {list.status === 'ready' && list.items.length === 0 && (
-            <Alert tone="warn" title="¡Lo sentimos!">Por el momento no tenemos un Punto Blue Express disponible en esta zona. Te invitamos a buscar una comuna cercana.</Alert>
+            <Alert tone="warn" title="¡Lo sentimos!">Por el momento no tenemos una sucursal disponible en esta zona. Te invitamos a buscar una comuna cercana.</Alert>
           )}
           {list.status === 'ready' && list.items.length > 0 && (
             <>
-              <p className="px-1 pb-3 font-bold">{list.items.length} Puntos Blue Express cercanos</p>
-              <ul ref={listRef} className="-mr-1 min-h-0 flex-1 space-y-2 overflow-y-auto overscroll-contain pr-1" role="radiogroup" aria-label={`Punto de ${kind}`}>
+              <p className="px-1 pb-3 font-bold">{list.items.length} sucursales cercanas</p>
+              <ul ref={listRef} className="-mr-1 min-h-0 flex-1 space-y-2 overflow-y-auto overscroll-contain pr-1" role="radiogroup" aria-label={`Sucursal de ${kind}`}>
                 {list.items.map((a, i) => {
                   const active = a.agency_id === agency?.agency_id
                   const dist = origin && km(origin, { lat: a.location.latitude, lng: a.location.longitude })
@@ -153,12 +153,7 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
                               <p className="font-bold leading-snug">{a.agency_name}</p>
                               {dist != null && <span className="shrink-0 rounded-full bg-brand-50 px-2.5 py-1 text-xs font-bold text-brand">{fmtKm(dist)}</span>}
                             </div>
-                            {(i === 0 || a.point_type !== 'Punto Blue Express') && (
-                              <div className="mt-1.5 flex flex-wrap gap-1.5">
-                                {i === 0 && <Badge className="bg-accent text-white">Más cercano</Badge>}
-                                {a.point_type !== 'Punto Blue Express' && <Badge className="bg-brand-50 text-brand">{a.point_type.replace('Punto ', '')}</Badge>}
-                              </div>
-                            )}
+                            {i === 0 && <div className="mt-1.5"><Badge className="bg-accent text-white">Más cercana</Badge></div>}
                             <p className="mt-2 flex items-start gap-1.5 text-sm text-muted"><MapPin className="mt-0.5 size-4 shrink-0" />{agencyAddress(a)}, {a.location.city_name}</p>
                             <p className="mt-1 flex items-center gap-1.5 text-sm">
                               <span className={`size-2 shrink-0 rounded-full ${hours.open ? 'bg-ok' : 'bg-line'}`} />
@@ -169,8 +164,8 @@ export default function AgencyPicker({ kind, regions, communes, commune, point, 
                               <div className="mt-3 flex flex-wrap gap-1.5">
                                 {a.services.map((sv) => (
                                   <span key={sv} className="inline-flex items-center gap-1 rounded-full bg-canvas px-2.5 py-1 text-xs font-semibold text-ink">
-                                    {sv.startsWith('Impresión') ? <Printer className="size-3.5 text-brand" /> : sv.startsWith('Locker') ? <Package className="size-3.5 text-brand" /> : <CreditCard className="size-3.5 text-brand" />}
-                                    {sv.replace(' Blue Express', ' con tarjeta')}
+                                    {sv.startsWith('Impresión') ? <Printer className="size-3.5 text-brand" /> : <CreditCard className="size-3.5 text-brand" />}
+                                    {sv}
                                   </span>
                                 ))}
                               </div>

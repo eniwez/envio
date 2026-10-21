@@ -9,7 +9,7 @@ export default function Origin({ catalog, errors }) {
   const o = state.origin
   const field = (key) => ({ value: o[key], error: errors[key], onChange: (e) => set('origin', { [key]: e.target.value }) })
 
-  // Al confirmar la dirección del remitente se sugiere la misma comuna para el Punto de origen
+  // Al confirmar la dirección del remitente se sugiere la misma comuna para la sucursal de origen
   const suggestPoint = (prev, address) => (!prev.pointCommune && address.commune ? { pointRegion: address.region, pointCommune: address.commune } : {})
   const update = (fn) => set('origin', fn)
   const factura = o.docType === 'factura'
@@ -37,7 +37,7 @@ export default function Origin({ catalog, errors }) {
       </Card>
 
       <Card>
-        <CardTitle title="Punto Blue Express de origen" subtitle="Elige dónde dejarás tu paquete" />
+        <CardTitle title="Sucursal de origen" subtitle="Elige dónde dejarás tu paquete" />
         <AgencyPicker
           kind="origen"
           regions={catalog.regions}

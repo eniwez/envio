@@ -1,9 +1,9 @@
 [
  {
   "agency_id": "5702",
-  "agency_name": "Punto Blue Express La Popular",
+  "agency_name": "Sucursal 474",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:00-19:00",
@@ -16,7 +16,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.44113,
@@ -29,9 +29,9 @@
  },
  {
   "agency_id": "1103",
-  "agency_name": "Punto Blue Express FactoryTech",
+  "agency_name": "Sucursal 792",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-18:00",
@@ -44,7 +44,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.434303,
@@ -57,9 +57,9 @@
  },
  {
   "agency_id": "8360",
-  "agency_name": "Punto Blue Express CIS Providencia",
+  "agency_name": "Sucursal 525",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-18:00",
@@ -72,7 +72,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.42363,
@@ -85,9 +85,9 @@
  },
  {
   "agency_id": "5506",
-  "agency_name": "Punto Blue Express Celcomp",
+  "agency_name": "Sucursal 586",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:30-19:00",
@@ -100,7 +100,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.422516,
@@ -113,9 +113,9 @@
  },
  {
   "agency_id": "6405",
-  "agency_name": "Punto Blue Express Emporio de Mascotas",
+  "agency_name": "Sucursal 414",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "12:00-20:30",
@@ -128,7 +128,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.431095,
@@ -141,9 +141,9 @@
  },
  {
   "agency_id": "2403",
-  "agency_name": "Punto Blue Express Café CakeKelly's",
+  "agency_name": "Sucursal 852",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "08:00-19:30",
@@ -156,7 +156,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.438694,
@@ -169,9 +169,9 @@
  },
  {
   "agency_id": "147",
-  "agency_name": "Punto Blue Express Riel",
+  "agency_name": "Sucursal 145",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:00-19:00",
@@ -184,7 +184,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.42251,
@@ -197,9 +197,9 @@
  },
  {
   "agency_id": "5953",
-  "agency_name": "Punto Blue Express Boutique Aires de Providencia",
+  "agency_name": "Sucursal 896",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "11:00-20:00",
@@ -212,7 +212,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.418774,
@@ -225,9 +225,9 @@
  },
  {
   "agency_id": "4500",
-  "agency_name": "Punto Blue Express Comercial Megasa",
+  "agency_name": "Sucursal 465",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:30-18:00",
@@ -240,7 +240,7 @@
   },
   "services": [
    "Impresión de etiqueta",
-   "Pago en Punto Blue Express"
+   "Pago con tarjeta"
   ],
   "location": {
    "latitude": -33.443916,
@@ -253,9 +253,9 @@
  },
  {
   "agency_id": "7086",
-  "agency_name": "Punto Blue Express Copec Av. Santa María 0740",
+  "agency_name": "Sucursal 134",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -266,9 +266,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.43099,
    "longitude": -70.626396,
@@ -280,9 +278,9 @@
  },
  {
   "agency_id": "7064",
-  "agency_name": "Punto Blue Express Copec Los Leones",
+  "agency_name": "Sucursal 877",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -305,9 +303,9 @@
  },
  {
   "agency_id": "7063",
-  "agency_name": "Punto Blue Express Copec Francisco Bilbao / Hernan",
+  "agency_name": "Sucursal 701",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -318,9 +316,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.43565,
    "longitude": -70.59609,
@@ -332,9 +328,9 @@
  },
  {
   "agency_id": "7090",
-  "agency_name": "Punto Blue Express Copec Lota",
+  "agency_name": "Sucursal 191",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -345,9 +341,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.42149,
    "longitude": -70.597496,
@@ -359,9 +353,9 @@
  },
  {
   "agency_id": "7067",
-  "agency_name": "Punto Blue Express Copec Av. Pedro de Valdivia / E",
+  "agency_name": "Sucursal 894",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -372,9 +366,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.442055,
    "longitude": -70.60651,
@@ -386,9 +378,9 @@
  },
  {
   "agency_id": "4927",
-  "agency_name": "Punto Blue Express Copec Tobalaba/Pocuro",
+  "agency_name": "Sucursal 453",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -411,9 +403,9 @@
  },
  {
   "agency_id": "7066",
-  "agency_name": "Punto Blue Express Copec Av. Salvador / Sta. Isabe",
+  "agency_name": "Sucursal 551",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -424,9 +416,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.44585,
    "longitude": -70.6226,
@@ -438,9 +428,9 @@
  },
  {
   "agency_id": "7027",
-  "agency_name": "Punto Blue Express Copec Av. Eliodoro Yáñez",
+  "agency_name": "Sucursal 708",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -451,9 +441,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.431458,
    "longitude": -70.61027,
@@ -465,9 +453,9 @@
  },
  {
   "agency_id": "4472",
-  "agency_name": "Punto Blue Express Cat Republic",
+  "agency_name": "Sucursal 968",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "12:30-20:30",
@@ -492,9 +480,9 @@
  },
  {
   "agency_id": "6634",
-  "agency_name": "Punto Blue Express Detallismos.cl",
+  "agency_name": "Sucursal 243",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-18:00",
@@ -517,9 +505,9 @@
  },
  {
   "agency_id": "7088",
-  "agency_name": "Punto Blue Express Copec Av. Providencia",
+  "agency_name": "Sucursal 118",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -530,9 +518,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.430134,
    "longitude": -70.62291,
@@ -544,9 +530,9 @@
  },
  {
   "agency_id": "5414",
-  "agency_name": "Punto Blue Express Oz Coffee",
+  "agency_name": "Sucursal 730",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:00-15:00",
@@ -569,9 +555,9 @@
  },
  {
   "agency_id": "7065",
-  "agency_name": "Punto Blue Express Copec Manuel Montt 1118",
+  "agency_name": "Sucursal 672",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -582,9 +568,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.437874,
    "longitude": -70.615486,
@@ -596,9 +580,9 @@
  },
  {
   "agency_id": "3169",
-  "agency_name": "Punto Blue Express International Essences Spa",
+  "agency_name": "Sucursal 505",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "11:00-17:00",
@@ -621,9 +605,9 @@
  },
  {
   "agency_id": "7041",
-  "agency_name": "Punto Blue Express PKT1 Providencia",
+  "agency_name": "Sucursal 977",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-18:00",
@@ -646,9 +630,9 @@
  },
  {
   "agency_id": "5249",
-  "agency_name": "Punto Blue Express Area 52",
+  "agency_name": "Sucursal 330",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": null,
@@ -671,9 +655,9 @@
  },
  {
   "agency_id": "940",
-  "agency_name": "Punto Blue Express Portatil Center",
+  "agency_name": "Sucursal 185",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:00-18:00",
@@ -696,9 +680,9 @@
  },
  {
   "agency_id": "3660",
-  "agency_name": "Punto Blue Express Mercadito Casero",
+  "agency_name": "Sucursal 893",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:00-20:00",
@@ -721,9 +705,9 @@
  },
  {
   "agency_id": "2890",
-  "agency_name": "Locker Blue Express Kubi Metro Tobalaba",
+  "agency_name": "Sucursal 838",
   "commune_code": "13123",
-  "point_type": "Punto Lockers Metro",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "06:00-23:00",
@@ -734,9 +718,7 @@
    "saturday": "06:00-23:00",
    "sunday": "08:00-23:00"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.418285,
    "longitude": -70.601746,
@@ -748,9 +730,9 @@
  },
  {
   "agency_id": "2891",
-  "agency_name": "Locker Blue Express Kubi Metro Los Leones",
+  "agency_name": "Sucursal 860",
   "commune_code": "13123",
-  "point_type": "Punto Lockers Metro",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "06:00-23:00",
@@ -761,9 +743,7 @@
    "saturday": "06:00-23:00",
    "sunday": "08:00-23:00"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.421795,
    "longitude": -70.608635,
@@ -775,9 +755,9 @@
  },
  {
   "agency_id": "2895",
-  "agency_name": "Locker Blue Express Kubi Metro Baquedano",
+  "agency_name": "Sucursal 354",
   "commune_code": "13123",
-  "point_type": "Punto Lockers Metro",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "06:00-23:00",
@@ -788,9 +768,7 @@
    "saturday": "06:00-23:00",
    "sunday": "08:00-23:00"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.437366,
    "longitude": -70.63395,
@@ -802,9 +780,9 @@
  },
  {
   "agency_id": "6691",
-  "agency_name": "Punto Blue Express Natynails",
+  "agency_name": "Sucursal 618",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "11:00-18:00",
@@ -827,9 +805,9 @@
  },
  {
   "agency_id": "573",
-  "agency_name": "Punto Blue Express Minimarket Alianza",
+  "agency_name": "Sucursal 303",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-18:00",
@@ -852,9 +830,9 @@
  },
  {
   "agency_id": "5951",
-  "agency_name": "Punto Blue Express  Fullcopia",
+  "agency_name": "Sucursal 426",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:30-18:30",
@@ -877,9 +855,9 @@
  },
  {
   "agency_id": "1901",
-  "agency_name": "Punto Blue Express Mail Boxes Losleo",
+  "agency_name": "Sucursal 385",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-16:00",
@@ -902,9 +880,9 @@
  },
  {
   "agency_id": "6019",
-  "agency_name": "Punto Blue Express Copec Bilbao 960",
+  "agency_name": "Sucursal 317",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express Copec",
+  "point_type": "Sucursal",
   "is_24_hours": true,
   "open_hours": {
    "monday": "00:00-23:59",
@@ -915,9 +893,7 @@
    "saturday": "00:00-23:59",
    "sunday": "00:00-23:59"
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.439934,
    "longitude": -70.62034,
@@ -929,9 +905,9 @@
  },
  {
   "agency_id": "208",
-  "agency_name": "Punto Blue Express New Time Market",
+  "agency_name": "Sucursal 237",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "08:00-21:00",
@@ -954,9 +930,9 @@
  },
  {
   "agency_id": "8501",
-  "agency_name": "Locker Blue Express General Holley 2335",
+  "agency_name": "Sucursal 238",
   "commune_code": "13123",
-  "point_type": "Punto Blue Lockers Standalone",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "07:30-21:00",
@@ -967,9 +943,7 @@
    "saturday": "07:30-15:30",
    "sunday": null
   },
-  "services": [
-   "Locker Blue Express"
-  ],
+  "services": [],
   "location": {
    "latitude": -33.41992,
    "longitude": -70.6077,
@@ -981,9 +955,9 @@
  },
  {
   "agency_id": "7451",
-  "agency_name": "Punto Blue Express Streamlined",
+  "agency_name": "Sucursal 866",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-17:30",
@@ -1006,9 +980,9 @@
  },
  {
   "agency_id": "5303",
-  "agency_name": "Punto Blue Express Mediterraneo",
+  "agency_name": "Sucursal 323",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:00-18:30",
@@ -1031,9 +1005,9 @@
  },
  {
   "agency_id": "4841",
-  "agency_name": "Punto Blue Express Rohe Store",
+  "agency_name": "Sucursal 213",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "09:30-17:30",
@@ -1056,9 +1030,9 @@
  },
  {
   "agency_id": "860",
-  "agency_name": "Punto Blue Express Musicovinyl",
+  "agency_name": "Sucursal 351",
   "commune_code": "13123",
-  "point_type": "Punto Blue Express",
+  "point_type": "Sucursal",
   "is_24_hours": false,
   "open_hours": {
    "monday": "10:00-19:00",

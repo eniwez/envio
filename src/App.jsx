@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react'
-import Layout from './Layout'
+import Layout from './views/Layout'
 import { StoreProvider } from './store'
-import Wizard from './pages/Wizard'
-import Webpay from './pages/Webpay'
-import Confirmation from './pages/Confirmation'
-import Label from './pages/Label'
+import Wizard from './views/Wizard'
+import Webpay from './views/Webpay'
+import Confirmation from './views/Confirmation'
+import Label from './views/Label'
 
 export const navigate = (to) => {
   history.pushState(null, '', to)
